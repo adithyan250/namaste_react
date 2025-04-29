@@ -1,0 +1,30 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Learning React.js ",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adithyan250/namaste_react.git"
+  },
+  "keywords": [
+    "react.js",
+    "namaste",
+    "react"
+  ],
+  "author": "Adithyan PB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adithyan250/namaste_react/issues"
+  },
+  "homepage": "https://github.com/adithyan250/namaste_react#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
