@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import RestaurantCard from "./RestaurantCard";
 import Shimmer from "./Shimmer";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 
 const Body = () => {
@@ -30,6 +31,10 @@ const Body = () => {
 
       // console.log(json);
     }
+
+    const onlineStatus = useOnlineStatus();
+
+    if(onlineStatus === false) return <h1>Connect to internet!!</h1>
 
     return resData.length === 0 ?(
       <Shimmer/>
